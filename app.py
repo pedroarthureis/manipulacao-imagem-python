@@ -2,8 +2,6 @@ from flask import Flask, render_template, request, jsonify, send_from_directory
 import os
 from werkzeug.utils import secure_filename
 
-import matplotlib
-matplotlib.use('Agg')
 
 from modules import mod1_basic, mod2_transform, mod3_color, mod4_format, mod5_filters, mod6_alpha
 
