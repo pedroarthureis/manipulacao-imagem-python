@@ -1,0 +1,8 @@
+opencv-python
+numpy
+torch
+torchvision
+ultralytics
+matplotlib
+flask
+rembg[cpu]

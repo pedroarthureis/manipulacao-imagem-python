@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão Computacional Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <h1>Visão Computacional <span>Pro</span></h1>
+            <p>Processamento avançado de imagens e vídeos usando IA e matemática matricial.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sidebar: Lista de Módulos -->
+        <aside class="modules-sidebar glass">
+            <h2>Módulos</h2>
+            <div class="modules-grid">
+                <button class="mod-btn active" data-mod="1">1. Edição Básica</button>
+                <button class="mod-btn" data-mod="2">2. Cortar e Girar</button>
+                <button class="mod-btn" data-mod="3">3. Ajustes de Cor</button>
+                <button class="mod-btn" data-mod="4">4. Formatos e Otimização</button>
+                <button class="mod-btn" data-mod="5">5. Filtros e Efeitos</button>
+                <button class="mod-btn" data-mod="6">6. Transparência e Fundo</button>
+            </div>
+        </aside>
+
+        <!-- Área de Trabalho Central -->
+        <section class="workspace">
+            <div class="upload-area glass" id="drop-zone">
+                <div class="upload-content">
+                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                    <h3>Arraste sua imagem/vídeo aqui</h3>
+                    <p>ou <span class="highlight">clique para selecionar</span></p>
+                    <input type="file" id="file-input" hidden accept="image/*">
+                </div>
+                <div id="file-name" class="file-name">Nenhum arquivo selecionado (Usará padrão)</div>
+            </div>
+
+            <!-- Parâmetros Dinâmicos -->
+            <div id="params-area" class="params-area glass hidden" style="padding: 1.5rem; margin-top: -0.5rem; margin-bottom: 1rem;">
+                <h3 style="margin-bottom: 1rem; color: var(--primary);">Parâmetros (Opcional)</h3>
+                <div id="params-content" style="display: grid; gap: 1rem; grid-template-columns: 1fr 1fr;">
+                    <!-- Injetados via JS -->
+                </div>
+            </div>
+
+            <div class="action-area">
+                <button id="run-btn" class="btn-primary">
+                    <span class="btn-text">Executar Módulo</span>
+                    <div class="loader hidden"></div>
+                </button>
+            </div>
+
+            <!-- Área de Resultados -->
+            <div id="results-area" class="results-area hidden glass">
+                <h2 id="result-title">Resultados</h2>
+                <div class="results-grid" id="results-grid">
+                    <!-- Cards de resultados injetados via JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}?v=1.4"></script>
+</body>
+</html>
