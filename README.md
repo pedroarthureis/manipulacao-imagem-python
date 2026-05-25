@@ -1,4 +1,4 @@
-# 🎨 Visão Computacional Pro
+#  Visão Computacional Pro
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-purple?style=for-the-badge)
 
-### 🔥 Plataforma Profissional de Manipulação de Imagens com Python e IA
+###  Plataforma Profissional de Manipulação de Imagens com Python e IA
 
 Processamento avançado de imagens utilizando Visão Computacional, OpenCV e automação gráfica.
 
@@ -15,7 +15,7 @@ Processamento avançado de imagens utilizando Visão Computacional, OpenCV e aut
 
 ---
 
-# 📸 Preview
+#  Preview
 
 ## Interface Principal
 
