@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-WebApp-black?style=for-the-badge&logo=flask)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-purple?style=for-the-badge)
 
 ###  Plataforma Profissional de Manipulação de Imagens com Python e IA
 
@@ -20,6 +19,12 @@ Processamento avançado de imagens utilizando Visão Computacional, OpenCV e aut
 ## Interface Principal
 
 > Adicione aqui suas screenshots
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/164a839b-937f-47d1-893c-33a209c42eeb" />
+
+<img width="1912" height="905" alt="image" src="https://github.com/user-attachments/assets/cbb730e9-429a-43e4-b935-a23965dc4a63" />
+
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/bb449304-878f-4fd8-a5b6-54a83c3c915e" />
+
 
 ```md
 ![Preview](./screenshots/home.png)
